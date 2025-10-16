@@ -1,0 +1,76 @@
+theme default
+
+# ---------- Base palette ----------
+palette.background.base #0f1115
+palette.background.surface #12141a
+palette.background.panel #181b22
+palette.border.default #2c313c
+palette.border.strong rgba(44,49,60,0.9)
+palette.accent.base #8b9eff
+palette.accent.subtle rgba(139,158,255,0.18)
+palette.accent.hover #7d6fff
+palette.text.primary #dce0e8
+palette.text.muted #939bae
+palette.text.subtle rgba(147,155,174,0.7)
+palette.feedback.danger #ff6464
+
+# ---------- Typography tokens ----------
+typography.body.family Inter
+typography.body.size 16px
+typography.body.weight 400
+typography.body.line-height 1.6
+typography.heading.family Manrope
+typography.heading.weight 600
+typography.heading.transform none
+typography.mono.family JetBrainsMono
+typography.mono.size 12px
+typography.mono.weight 400
+typography.badge.letter-spacing 0.14em
+
+# ---------- Shape & spacing ----------
+radius.card 8px
+radius.badge 3px
+radius.pill 999px
+
+spacing.stack.xs 4px
+spacing.stack.sm 8px
+spacing.stack.md 16px
+spacing.stack.lg 24px
+spacing.section 48px
+
+# ---------- Elevation & motion ----------
+shadow.soft 0 2px 4px rgba(0,0,0,0.1)
+shadow.card 0 4px 12px rgba(0,0,0,0.2)
+transition.fast 120ms
+transition.default 200ms
+
+# ---------- Layout ----------
+layout.container.width 780px
+layout.container.gutter 16px
+
+# ---------- Component surfaces ----------
+component.page-summary.background rgba(24,27,34,0.6)
+component.page-summary.border rgba(44,49,60,0.7)
+component.page-summary.shadow 0 2px 8px rgba(0,0,0,0.15)
+component.page-summary.padding 20px 24px
+component.page-summary.gap 16px
+
+component.thread-group.header.color #f4f5f7
+component.thread-group.header.meta-color rgba(154,162,189,0.8)
+component.thread-group.header.underline #6d5dff
+
+component.thread-item.base.background transparent
+component.thread-item.base.border-width 0 0 0 3px
+component.thread-item.base.border-color transparent
+component.thread-item.padding 18px 20px 18px 24px
+component.thread-item.hover.background rgba(109,93,255,0.05)
+component.thread-item.hover.border-color #6d5dff
+component.thread-item.text-color #f4f5f7
+component.thread-item.meta-color #939bae
+component.thread-item.rank.color rgba(139,158,255,0.7)
+
+component.badge.background #6d5dff
+component.badge.color #0d1117
+component.badge.radius 3px
+
+component.empty-state.text-color rgba(154,162,189,0.8)
