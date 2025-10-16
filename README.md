@@ -100,4 +100,4 @@ That’s all you need to render a page with structure and styling separated.
 
 ## License
 
-MIT. Rename it, swap out the runtime, drop it into a different stack—whatever makes sense. If you build something fun with Fineprint, let me know.
+MIT. Rename it, swap out the runtime, drop it into a different stack. Go crazy.
